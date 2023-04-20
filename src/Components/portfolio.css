@@ -1,0 +1,46 @@
+.portfolio {
+  
+    margin: 0 auto;
+    padding: 40px;
+    background: url("../images/leone-venter-VieM9BdZKFo-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height:80vh;
+  }
+  
+  .skills {
+    margin-bottom: 40px;
+  }
+  
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .skill-item {
+    flex-basis: calc(40% - 10px);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: #fbfafa;
+    border-radius:25px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .skill-percentage {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 50px;
+  }
+  
+  .skill-progress {
+    height: 100%;
+    background-color: #e768cb;
+    border-radius: 50px;
+  }
+  
